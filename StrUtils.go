@@ -1,4 +1,4 @@
-package StrTools
+package DGo
 
 import "strconv"
 
