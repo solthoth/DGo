@@ -33,3 +33,7 @@ func ReadLn(f *os.File, value *string) string {
 func Reset(f *os.File){
   f.Seek(0,0)
 }
+
+func Writeln(f *os.File, value *string) {
+  f.WriteString(value+"\n")
+}
